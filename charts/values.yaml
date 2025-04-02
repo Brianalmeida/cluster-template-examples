@@ -16,6 +16,9 @@ cloudCredentialSecretName: ""
 cloudprovider: "digitalocean"
 
 kubernetesVersion: "v1.30.9+rke2r1"
+kubernetesVersion: "v1.30.11+rke2r1"
+kubernetesVersion: "v1.31.6+rke2r1"
+kubernetesVersion: "v1.32.3+rke2r1"
 
 # general RKE options
 rke:
