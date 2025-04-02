@@ -344,7 +344,7 @@ questions:
 # DO
 - variable: nodepools.0.image
   label: "Image"
-  default: ubuntu-20-04-x64
+  default: ubuntu-24-04-x64
   type: string
   description: "Digital Ocean Image"
   show_if: cloudprovider=digitalocean
