@@ -96,7 +96,7 @@ nodepools:
   sshUser: root
 
   # comma-separated list of tags to apply to the Droplet
-  # tags: ""
+  tags: ""
 
   # File contents for userdata
   # userdata: ""
