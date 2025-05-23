@@ -17,6 +17,13 @@ cloudprovider: "digitalocean"
 
 kubernetesVersion: ""
 
+agentEnvs:
+  - name: HTTP_PROXY
+    value: http://my.proxy.localdomain:8080
+  - name: HTTPS_PROXY
+    value: http://my.proxy.localdomain:8080
+  - name: NO_PROXY
+    value: 127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
 # enable local auth endpoint
 localClusterAuthEndpoint:
   enabled: false
