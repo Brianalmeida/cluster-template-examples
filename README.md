@@ -8,6 +8,7 @@ This project contains rke2 cluster template helm chart, which can be applied wit
 helm repo add cluster-templates https://raw.githubusercontent.com/rancher/cluster-template-examples/main
 helm repo update
 ```
+test
 
 ### Adding the Helm Chart via Rancher Manager
 
